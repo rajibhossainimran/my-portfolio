@@ -5,6 +5,7 @@ import {fadeIn,textVariant} from '../utils/motion';
 import {services} from '../constants/constant';
 import { p } from 'framer-motion/client';
 import { Tilt } from 'react-tilt';
+import { SectionWraper } from '../hoc';
 
 const ServiceCard =({index,title,icon})=>{
   return(
@@ -21,6 +22,7 @@ const ServiceCard =({index,title,icon})=>{
         }} className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'>
           <img src={icon} alt="icon" className='w-16 h-16 object-contain'/>
           <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
+          
         </div>
       </motion.div>
     </Tilt>
@@ -51,4 +53,4 @@ const About = () => {
   )
 }
 
-export default About
+export default SectionWraper (About,'about')

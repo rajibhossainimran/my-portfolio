@@ -23,9 +23,6 @@ const Hero = () => {
               <span className='text-gray-300'>Expert in React.js & Laravel | Delivering Scalable and Dynamic Web Applications | Always Exploring New Technologies.</span>
               </p>
           </div>
-          <div>
-            this is my image
-          </div>
       </div>
 
       {/* mouse scroll icon and animation using motion */}
