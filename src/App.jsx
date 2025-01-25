@@ -5,6 +5,8 @@ import About from "./components/About"
 import Experience from "./components/Experience"
 import Tech from "./components/Tech"
 import Contact from "./components/Contact"
+import Works from "./components/Works"
+import { StarsCanvas } from "./components/canvas"
 
 
 function App() {
@@ -21,10 +23,11 @@ function App() {
         </div>
         <About></About>
         <Experience></Experience>
+        <Works></Works>
         <Tech></Tech>
         <div className="relative z-0">
         <Contact></Contact>
-        
+        <StarsCanvas></StarsCanvas>
         </div>
 
       </div>
