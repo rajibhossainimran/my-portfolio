@@ -1,7 +1,9 @@
 import React from 'react'
 import { styles } from '../style'
 import { motion } from 'framer-motion';
-
+import { TypeAnimation } from 'react-type-animation';
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { VscPreview } from "react-icons/vsc";
 // import { repeat } from 'maath/dist/declarations/src/misc'
 
 const Hero = () => {
@@ -16,14 +18,59 @@ const Hero = () => {
 
           <div>
               <h1 className={`${styles.heroHeadText} text-white`}>
-                Hi, I'm <span className='text-[#915eff]'>Rajib Hossain</span>
+                Hi, I'm <br /><span className='text-[#915eff]'>RAJIB HOSSAIN</span>
               </h1>
-              <p className='w-2/3'>
-              <span className={`${styles.heroSubText} mt-2 text-white-100`}> Full-Stack Developer</span> <br />
-              <span className='text-gray-300'>Expert in React.js & Laravel | Delivering Scalable and Dynamic Web Applications | Always Exploring New Technologies.</span>
-              </p>
+              <div className=' py-1'>
+              <p className={` text-4xl font-semibold  mt-1 text-white-100 flex-nowrap`}> Full-Stack Developer</p> <br />
+              <p className='text-gray-300 text-2xl text-orange-600'>Expert in React.js & Laravel</p>
+              </div>
+              <div className='mt-2 h-24 text-slate-300'>
+                <TypeAnimation
+                  sequence={[
+                    `Delivering Scalable and Dynamic Web Applications . \nExploring New Technologies.`,
+                    1000,
+                    "",
+                  ]}
+                  speed={50}
+                  style={{ whiteSpace: 'pre-line', fontSize: '1.5em' }}
+                  repeat={Infinity}
+                />
+              </div>
+              {/* socila media icons  */}
+              <div className="flex gap-4 mt-5">
+                <a
+                  href="https://github.com/rajibhossainimran"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gray-800 p-4 rounded-xl text-white hover:bg-gray-700 transition"
+                >
+                  <FaGithub size={30} />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/rajibhossainimran/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gray-800 p-4 rounded-xl text-white hover:bg-gray-700 transition"
+                >
+                  <FaLinkedin size={30} />
+                </a>
+                <a
+                  href="mailto:rajibhossainimran@gmail.com"
+                  className="bg-gray-800 p-4 rounded-xl text-white hover:bg-gray-700 transition"
+                >
+                  <FaEnvelope size={30} />
+                </a>
+                <a
+                  href="mailto:rajibhossainimran@gmail.com"
+                  className="bg-gray-800 p-4 rounded-xl text-white hover:bg-gray-700 transition flex items-center gap-2"
+                >
+                  <VscPreview size={30} />
+                  <span>View CV</span>
+                </a>
+              </div>
           </div>
       </div>
+ 
 
       {/* mouse scroll icon and animation using motion */}
       <div className='absolute xs:bottom-10 bottom-12 w-full flex justify-center items-center'>
@@ -43,6 +90,8 @@ const Hero = () => {
     </div>
   </a>
 </div>
+
+      
 
     </section>
   )

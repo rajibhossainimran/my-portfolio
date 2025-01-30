@@ -29,8 +29,14 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import development from "./development.png";
+import fullstack from "./fullstack.webp";
+import webdesign from "./webdesign.png";
 
 export {
+  development,
+  fullstack,
+  webdesign,
   logo,
   backend,
   creator,
