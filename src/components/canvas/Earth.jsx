@@ -1,8 +1,9 @@
 import React from 'react'
+import logo from "../../assets/e-mail.gif";
 
 const Earth = () => {
   return (
-    <div>Earth</div>
+    <div className='flex justify-center align-middle items-center'><img src={logo} alt="image" /></div>
   )
 }
 
