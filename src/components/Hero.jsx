@@ -22,7 +22,7 @@ const Hero = () => {
               </h1>
               <div className=' py-1'>
               <p className={` text-4xl font-semibold  mt-1 text-white-100 flex-nowrap`}> Full-Stack Developer</p> <br />
-              <p className='text-gray-300 text-2xl text-orange-600'>Expert in React.js & Laravel</p>
+              <p className=' text-2xl text-red-800'>Expert in React.js & Laravel</p>
               </div>
               <div className='mt-2 h-24 text-slate-300'>
                 <TypeAnimation
@@ -56,12 +56,14 @@ const Hero = () => {
                 </a>
                 <a
                   href="mailto:rajibhossainimran@gmail.com"
+                  target="_blank"
                   className="bg-gray-800 p-4 rounded-xl text-white hover:bg-gray-700 transition"
                 >
                   <FaEnvelope size={30} />
                 </a>
                 <a
-                  href="mailto:rajibhossainimran@gmail.com"
+                  href="https://drive.google.com/file/d/1OKUjjCwog7KYLqw22lJuYqaDKE4vqNHA/view?usp=sharing"
+                  target="_blank"
                   className="bg-gray-800 p-4 rounded-xl text-white hover:bg-gray-700 transition flex items-center gap-2"
                 >
                   <VscPreview size={30} />

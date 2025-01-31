@@ -32,8 +32,28 @@ import tripguide from "./tripguide.png";
 import development from "./development.png";
 import fullstack from "./fullstack.webp";
 import webdesign from "./webdesign.png";
+import redlogo from "./logo.png";
+import lightred from "./lightred.png";
+import website1 from "./website1.png";
+import website2 from "./website2.png";
+import website3 from "./Dashboard.png";
+import php from "./php.png";
+import mysql from "./mysql.png";
+import laravel from "./laravel.png";
+import bootstrap from "./bootstrap.png";
+import jquery from "./jquery.webp";
 
 export {
+  php,
+  mysql,
+  laravel,
+  bootstrap,
+  jquery,
+  website1,
+  website2,
+  website3,
+  lightred,
+  redlogo,
   development,
   fullstack,
   webdesign,

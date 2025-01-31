@@ -5,6 +5,7 @@ import { github } from "../assets";
 import { SectionWraper } from "../hoc";
 import { projects } from "../constants/constant";
 import { fadeIn, textVariant } from "../utils/motion";
+import { FiEye } from "react-icons/fi";
 import { Tilt } from "react-tilt";
 
 const ProjectCard = ({
@@ -13,6 +14,7 @@ const ProjectCard = ({
   description,
   tags,
   image,
+  live,
   source_code_link,
 }) => {
   return (
@@ -35,13 +37,21 @@ const ProjectCard = ({
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer me-6'
             >
               <img
                 src={github}
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
               />
+
+            </div>
+            <div
+              onClick={() => window.open(live, "_blank")}
+              className='bg-red-800 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+            >
+              <FiEye />
+              
             </div>
           </div>
         </div>

@@ -25,7 +25,15 @@ import {
     threejs,
     development,
     webdesign,
-    fullstack
+    fullstack,
+    website1,
+    website2,
+    website3,
+    php,
+    mysql,
+    laravel,
+    bootstrap,
+    jquery
   } from "../assets";
   
   const navLinks = [
@@ -76,16 +84,20 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "php",
+      icon: php,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "laravel",
+      icon: laravel,
+    },
+    {
+      name: "mysql",
+      icon: mysql,
     },
     {
       name: "Tailwind CSS",
@@ -100,8 +112,8 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "jquery",
+      icon: jquery,
     },
     {
       name: "git",
@@ -112,8 +124,8 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "bootstrap",
+      icon: bootstrap,
     },
   ];
   
@@ -189,30 +201,35 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Pharmacy",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "The pharmacy project is a web-based application built using PHP and MySQL, designed to streamline pharmacy operations. It features medication tracking, prescription management, inventory control, and billing.",
       tags: [
         {
-          name: "react",
+          name: "Js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "PHP",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "MySql",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Bootstrap",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      live: "https://pharmacy.rajibhossain.online/",
+      image: website1,
       source_code_link: "https://github.com/rajibhossainimran/pharmanest-project",
     },
     {
-      name: "Job IT",
+      name: "Recipe Calories",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Recipe Calories is an application designed to calculate and display the nutritional information. Users can input ingredients and their quantities, and the app calculates the total calories, as well as other key nutritional data such as fats, proteins.",
       tags: [
         {
           name: "react",
@@ -223,33 +240,35 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      live: "https://roaring-sorbet-0a7885.netlify.app/",
+      image: website2,
+      source_code_link: "https://github.com/rajibhossainimran/react-recipe-calories",
     },
     {
-      name: "Trip Guide",
+      name: "SHEBA.XYZ",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Sheba.xyz is a platform that connects users with service providers for various needs, such as home repairs and tutoring.It's simplify the process of finding reliable service providers, offering a seamless experience for both users and service providers.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Laravel",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      live: "",
+      image: website3,
+      source_code_link: "https://github.com/rajibhossainimran/",
     },
   ];
   

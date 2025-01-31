@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { styles } from '../style';
 import{navLinks} from '../constants/constant';
-import {logo,menu,close} from '../assets';
+import {logo,menu,close,redlogo,lightred} from '../assets';
 import { Link } from 'react-router';
 
 const Navbar = () => {
@@ -15,7 +15,7 @@ const Navbar = () => {
         onClick={()=>{
           setAcitve("")
           window.scrollTo(0,0);
-        }}> <img src={logo} alt="logo" className='w-9 h-9 object-contain' />
+        }}> <img src={lightred} alt="logo" className='w-12 h-12 object-contain' />
         <p className='text-[18px]'>Rajib Hossain</p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
