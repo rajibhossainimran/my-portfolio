@@ -48,7 +48,7 @@ const About = () => {
             If you're looking for a web developer who can bring creativity, technical expertise, and problem-solving skills to your projects, I am here to help you achieve your goals.
           </motion.p>
         </div>
-        {/* image container  */}
+        {/* image my profile container  */}
         <div className='w-full md:w-1/2 flex justify-center items-center'>
           <img src={image} alt="" />
         </div>

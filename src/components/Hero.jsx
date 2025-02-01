@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { VscPreview } from "react-icons/vsc";
-// import { repeat } from 'maath/dist/declarations/src/misc'
+
 
 const Hero = () => {
   return (
