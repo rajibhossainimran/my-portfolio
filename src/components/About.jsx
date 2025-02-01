@@ -6,7 +6,7 @@ import {services} from '../constants/constant';
 import { p } from 'framer-motion/client';
 import { Tilt } from 'react-tilt';
 import { SectionWraper } from '../hoc';
-import image from '../assets/development.png';
+import rajib from '../assets/rajib.jpg';
 
 const ServiceCard =({index,title,icon})=>{
   return(
@@ -50,7 +50,7 @@ const About = () => {
         </div>
         {/* image my profile container  */}
         <div className='w-full md:w-1/2 flex justify-center items-center'>
-          <img src={image} alt="" />
+          <img className='rounded-full' src={rajib} alt="" />
         </div>
       </div>
     <div className='mt-20 flex justify-center items-center flex-wrap gap-10'>
