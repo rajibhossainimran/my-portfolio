@@ -62,7 +62,7 @@ const Hero = () => {
                   <FaEnvelope size={30} />
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1OKUjjCwog7KYLqw22lJuYqaDKE4vqNHA/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1HOKWwfMp0F4QlW-OiejOFOrBk4QgIcDx/view?usp=sharing"
                   target="_blank"
                   className="bg-gray-800 p-4 rounded-xl text-white hover:bg-gray-700 transition flex items-center gap-2"
                 >
